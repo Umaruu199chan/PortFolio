@@ -1,2 +1,2 @@
 # PortFolio
-studying html nad css i'll try to add javascript 
+studying html and css i'll try to add javascript 
