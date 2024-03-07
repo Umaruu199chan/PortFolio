@@ -1,3 +1,11 @@
+@font-face {
+    font-family:bebas;
+    src: url(/fonts/bebas.ttf);
+}
+@font-face {
+    font-family: orbit;
+    src: url(/fonts/orbitron.ttf);
+}
 
 * {
     margin: 0; 
@@ -16,18 +24,19 @@ header {
     align-items: center;
     z-index: 100;
 }
+
 .logo {
     font-size: 25px;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: orbit;
 }
 nav a {
     color: #fff;
     font-weight: 500;
     font-size: 18px;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: orbit;
     text-decoration: none;
     margin-left: 35px;
     transition: 1s;
