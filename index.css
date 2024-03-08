@@ -1,3 +1,4 @@
+/* custom fonts*/
 @font-face {
     font-family:bebas;
     src: url(/fonts/bebas.ttf);
@@ -7,11 +8,13 @@
     src: url(/fonts/orbitron.ttf);
 }
 
+
 * {
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
 }
+/* container of the logo and navbar */
 header {
     position: fixed;
     top: 0;
@@ -24,7 +27,7 @@ header {
     align-items: center;
     z-index: 100;
 }
-
+/* logo in the header*/
 .logo {
     font-size: 25px;
     color: #fff;
@@ -32,6 +35,7 @@ header {
     font-weight: 500;
     font-family: orbit;
 }
+/* the links in the navigation bar */
 nav a {
     color: #fff;
     font-weight: 500;
@@ -41,6 +45,10 @@ nav a {
     margin-left: 35px;
     transition: 1s;
 }
- nav a:hover {
+/* design for the links */
+ nav a:hover,
+ nav a.active {
     color: #000;
+    text-decoration: underline;
+  
  }
