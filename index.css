@@ -47,8 +47,8 @@ nav a {
     transition: 1s;
 }
 /* design for the links */
- nav a:hover {
-   text-decoration: underline;
+ nav a:hover,
+ nav a.active {
    color: #000;
   
  }
@@ -59,4 +59,7 @@ nav a {
     justify-content: center;
     align-items: center;
     background-color: #d3d3d3;
+ }
+ section:nth-child(odd) {
+    background-color: antiquewhite;
  }
