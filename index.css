@@ -9,6 +9,7 @@
 }
 
 
+
 * {
     margin: 0; 
     padding: 0;
@@ -42,13 +43,20 @@ nav a {
     font-size: 18px;
     font-family: orbit;
     text-decoration: none;
-    margin-left: 35px;
+    margin-left: 55px;
     transition: 1s;
 }
 /* design for the links */
- nav a:hover,
- nav a.active {
-    color: #000;
-    text-decoration: underline;
+ nav a:hover {
+   text-decoration: underline;
+   color: #000;
   
+ }
+ /* Section */
+ section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3d3d3;
  }
