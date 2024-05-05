@@ -63,3 +63,7 @@ nav a {
  section:nth-child(odd) {
     background-color: antiquewhite;
  }
+ .homepage {
+    margin-left: -30%;
+    font-family: orbit;
+ }
