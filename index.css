@@ -69,7 +69,13 @@ nav a {
  }
  /* Image in home section*/
  #home {
-    background-image: url('/images/Screenshot\ 2024-05-04\ 214244.png');
+    background-image: url('/images/pexels-eberhard-grossgasteiger-1366919.jpg');
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+ }
+ /*fOOTER SECTION*/
+ footer {
+    padding: 20px 20px;
+    font-family: bebas;
  }
