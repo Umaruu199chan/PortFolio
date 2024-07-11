@@ -69,13 +69,29 @@ nav a {
  }
  /* Image in home section*/
  #home {
-    background-image: url('/images/pexels-eberhard-grossgasteiger-1366919.jpg');
+    background-image: url('/images/white.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
  }
  /*fOOTER SECTION*/
  footer {
-    padding: 20px 20px;
-    font-family: bebas;
+    text-align: center;
+    padding: 40px;
+    font-family: orbit;
+    font-size: 18px;
  }
+ .f-links a {
+    text-decoration: none;
+    justify-content: space-between;
+    color: black;
+    margin-left: 55px;
+ }
+ .flinks a:hover{
+    color: #b82323;
+ }
+ .footerh2 {
+    font-size: 18px;
+    margin-top: 2%;
+ }
+ 
