@@ -61,7 +61,7 @@ nav a {
     background-color: #d3d3d3;
  }
  section:nth-child(odd) {
-    background-color: antiquewhite;
+    background-color: rgb(252, 252, 252);
  }
  .homepage {
     margin-left: -30%;
@@ -79,6 +79,7 @@ nav a {
     text-align: center;
     padding: 40px;
     font-family: orbit;
+    background-color: rgb(216, 216, 216);
     font-size: 18px;
  }
  .f-links a {
@@ -86,10 +87,9 @@ nav a {
     justify-content: space-between;
     color: black;
     margin-left: 55px;
+    
  }
- .flinks a:hover{
-    color: #b82323;
- }
+
  .footerh2 {
     font-size: 18px;
     margin-top: 2%;
