@@ -7,6 +7,10 @@
     font-family: orbit;
     src: url(/fonts/orbitron.ttf);
 }
+@font-face {
+   font-family: poppins;
+   src: url(/fonts/Poppins-Black.ttf);
+}
 
 
 
@@ -56,8 +60,6 @@ nav a {
  section {
     min-height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #d3d3d3;
  }
  section:nth-child(odd) {
@@ -74,6 +76,24 @@ nav a {
     background-position: center;
     background-size: cover;
  }
+ /* About Page */
+ #about {
+   align-items: center;
+   padding: 10px;
+   font-size: 18px;
+   font-weight: lighter;
+ }
+ .abouth1 {
+   font-family: orbit;
+ }
+ .aboutme {
+   padding: 20px;
+   color: black;
+   margin-left: 7%;
+ }
+ .img-container {
+   margin-right: -30%;
+ }
  /*fOOTER SECTION*/
  footer {
     text-align: center;
@@ -89,7 +109,6 @@ nav a {
     margin-left: 55px;
     
  }
-
  .footerh2 {
     font-size: 18px;
     margin-top: 2%;
